@@ -1,0 +1,80 @@
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+}
+ 
+.caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:#66CC99;
+    opacity:1;
+    width:100%;
+    height:100%;
+    padding:2%;
+    display: none;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+}
+.p{
+    color: #F2F1EF;
+}
+
+@media only screen and (min-width: 40.063em)
+.entry-header.with_featured_img, .category_header.with_featured_img {
+    margin-top: -50px;
+}
+.entry-header.with_featured_img {
+    padding: 100px 0 180px 0;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    color: #fff;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+
+.entry-header.with_featured_img .page_header_overlay {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*background: rgba(0,0,0,.5);*/
+}
+
+
+.without-sidebar {
+}
+@media only screen and (min-width: 40em)
+.column, .columns {
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    float: left;
+}
+
+
+.entry-header.with_featured_img h1 {
+    color: #fff;
+}
+.without-sidebar .page-title, .without-sidebar .entry-title, .woocommerce .page-title, .woocommerce .entry-title {
+    text-align: center;
+}
+h1:first-child {
+    margin-top: -0.35em;
+}
+.entry-title {
+    margin-bottom: .4em;
+    text-align: center;
+}
+.h1{
+    color: #fff;
+}
