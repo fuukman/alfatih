@@ -218,6 +218,7 @@
 
 @endsection
 @section('scripts')
+
 <!-- <script>
   $( function() {
     var availableTags = 

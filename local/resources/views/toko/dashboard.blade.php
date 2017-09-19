@@ -10,16 +10,16 @@
 <!-- <script src="https://almsaeedstudio.com/themes/AdminLTE/plugins/morris/morris.css"></script> -->
         <!-- <script src="https://almsaeedstudio.com/themes/AdminLTE/plugins/jQuery/jquery-2.2.3.min.js"></script> -->
         <!-- <script src="https://almsaeedstudio.com/themes/AdminLTE/bootstrap/js/bootstrap.min.js"></script> -->
-        <script src="https://almsaeedstudio.com/themes/AdminLTE/plugins/fastclick/fastclick.js"></script>
+        <script src="{{ url('theme/backend/plugins/fastclick/fastclick.js')}}"></script>
         <!-- <script src="https://almsaeedstudio.com/themes/AdminLTE/dist/js/app.min.js"></script> -->
         <!-- <script src="https://almsaeedstudio.com/themes/AdminLTE/dist/js/demo.js"></script> -->
-        <script src="https://almsaeedstudio.com/themes/AdminLTE/plugins/flot/jquery.flot.min.js"></script>
-        <script src="https://almsaeedstudio.com/themes/AdminLTE/plugins/flot/jquery.flot.resize.min.js"></script>
-        <script src="https://almsaeedstudio.com/themes/AdminLTE/plugins/flot/jquery.flot.pie.min.js"></script>
-        <script src="https://almsaeedstudio.com/themes/AdminLTE/plugins/flot/jquery.flot.categories.min.js"></script>
+        <script src="{{ url('theme/backend/plugins/flot/jquery.flot.min.js')}}"></script>
+        <script src="{{ url('theme/backend/plugins/flot/jquery.flot.resize.min.js')}}"></script>
+        <script src="{{ url('theme/backend/plugins/flot/jquery.flot.pie.min.js')}}"></script>
+        <script src="{{ url('theme/backend/plugins/flot/jquery.flot.categories.min.js')}}"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
-        <script src="https://almsaeedstudio.com/themes/AdminLTE/plugins/morris/morris.min.js"></script>
-        <script src="https://almsaeedstudio.com/themes/AdminLTE/plugins/knob/jquery.knob.js"></script>
+        <script src="{{ url('theme/backend/plugins/morris/morris.min.js')}}"></script>
+        <script src="{{ url('theme/backend/plugins/knob/jquery.knob.js')}}"></script>
 <script>
     /* jQueryKnob */
 
